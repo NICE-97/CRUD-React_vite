@@ -50,7 +50,12 @@ function Users({ handleGetId }) {
         users
       </div>
       <div>
-      <Link to="/register" className="inline-flex items-center px-4 py-2 mb-2 text-xs font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Create User</Link>
+       <div>
+        <Link to="/register" className="inline-flex items-center px-4 py-2 mb-2 text-xs font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Create User</Link>
+       </div>
+       <div>
+        <Link to="/login" className="inline-flex items-center px-4 py-2 mb-2 text-xs font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login</Link>
+       </div>
       </div>
       <div className='grid grid-cols-3 gap-5'>
         {users.map((user, index) => {
